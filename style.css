@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(93, 12, 57);
+    color: white;
+}
+
+p {
+    position: relative;
+    bottom: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#tooltip {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(91, 91, 91);
+    text-align: center;
+    visibility: hidden;
+}
+
+.bar:hover {
+    fill: grey;
+
+}
